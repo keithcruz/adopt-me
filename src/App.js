@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Router, Link } from "@reach/router";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 import ThemeContext from "./ThemeContext";
@@ -24,4 +24,4 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+export default App;
